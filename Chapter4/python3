@@ -1,0 +1,38 @@
+#!/usr/bin/env python
+# -*- coding: utf-8 -*-
+
+# My Pizzas, Your Pizzas:
+# Start with your program from exercise 4-1 (page 60).
+# Make a copy of the list of pizzas, end call it friend_pizzas.
+# Then, do the following: 
+
+# * Add a new pizza to the original list.
+
+# * Add a different pizza to the list friend_pizzas.
+
+# * Prove that you have two separate lists. Print the message,
+# My favorite pizzas are:, and then use a for loop to print the first list.
+# Print the message, My friend's favorite Pizzas are:, and then use a for loop
+# to print the second list.
+
+# Make sure each new pizza is stored in the appropiate list.
+
+favorite_pizzas = [
+        'pepperoni',
+        'jamon y queso',
+        'vegetales',
+        'salchicha_italiana']
+
+friend_pizzas = [
+        'pepperoni',
+        'jamon y queso',
+        'vegetales',
+        'salchicha_italiana']
+
+favorite_pizzas.append('CheeseBites')
+friend_pizzas.append('Pizza_Pineapple')
+
+print("My favorite pizzas are:")
+for favorite in favorite_pizza:
+    print(favorite)
+
