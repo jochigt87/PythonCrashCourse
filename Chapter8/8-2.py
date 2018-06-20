@@ -6,4 +6,7 @@
 # favorite books is Alice is Wonderland. Call the function, making sure to
 # include a book title as an argument in the function call.
 
+def favorite_book(book):
+    print("One of my favorite books is " + book.title())
 
+favorite_book('Da Vinci Code')
