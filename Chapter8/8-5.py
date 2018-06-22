@@ -7,3 +7,9 @@
 # Call your function for three diferrent cities, at least one of which is not
 # in the default country.
 
+def describe_city(city, country='Chile'):
+    print(city.title() + " is in " + country.title())
+
+describe_city('santiago')
+describe_city('santo domingo', 'republica dominicana')
+describe_city('san juan','puerto rico')

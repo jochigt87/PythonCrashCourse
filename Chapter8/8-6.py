@@ -12,4 +12,9 @@
 # Call your function with at least three city-country pairs, and print the
 # value that's returned.
 
+def city_country(city, country):
+    full = "______________________\n" + city+"," + country + "\n______________________"
+    return full.title()
 
+pais = city_country('Santiago', 'chile')
+print(pais)
