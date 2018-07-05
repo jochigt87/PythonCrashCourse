@@ -9,4 +9,26 @@
 # magician's name.
 
 
+def make_great(magicians_names, unamed_magicians):
+    
+    while unamed_magicians:
+        names_now = magicians_names.pop()
+
+    print("Names of magicians" + names_now)
+    unamed_magicians.append(names_now)
+
+#    for names in magicians_names:
+#       print("Great " + names)
+
+def show_magicians(magicians_names):
+    
+    for names_now in magicians_names:
+        print(names_now)
+
+magicians_names = ['joudini', 'chespin', 'gasparin', 'nestarin']
+unamed_magicians = []
+
+make_great(magicians_names[:], unamed_magicians)
+
+show_magicians(magicians_names)
 
