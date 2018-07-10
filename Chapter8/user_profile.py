@@ -16,4 +16,11 @@ user_profile = build_profile('albert', 'einstein',
                             field = 'physics',
                              hobbies = 'think the time is relative!')
 
+myPersonalInfo = build_profile('jochimin', 'contreras',
+                location= 'santo domingo',
+                hobbies = 'BJJ, Programming, StackOverFlow')
+
+
 print(user_profile)
+
+print(myPersonalInfo)
