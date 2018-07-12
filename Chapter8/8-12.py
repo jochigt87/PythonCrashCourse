@@ -7,6 +7,11 @@
 # that is being ordered. Call the function three times, using a diferrent
 # number of arguments each time.
 
+def sandwichMaker(*sandwiches):
+    print("Making great and delecious sandwiches for you")
+    for sandwich in sandwiches:
+        print("Adding " + sandwich + " to your sandwich")
+    print("sandwich is ready to eat :-)")
 
-
+sandwichMaker('1 lead cheese', '1 eggs', 'beef')
 

@@ -12,3 +12,16 @@
 # Print the dictionary that's returned to make sure all the infomation was
 # stored correctly.
 
+
+def make_car(manufacturer, model, **extra):
+    car = {}
+    car['marca'] = manufacturer
+    car['model'] = model
+
+    for key, value in extra.items():
+        car[key] = value 
+    return car 
+
+mycar1 = make_car('honda', 'type R', color = 'Grey', doors = '4')
+
+print(mycar1)
