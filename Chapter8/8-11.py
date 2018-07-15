@@ -8,7 +8,6 @@
 # list of the original names and one list with the Great added to each
 # magician's name.
 
-
 def make_great(magicians_names, unamed_magicians):
     
     while unamed_magicians:
