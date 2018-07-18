@@ -1,4 +1,10 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
 
+# Python Module of Week: One excellent resource for exploring the Python 
+# standard library is a site called Python Module of the Week. Go to 
+# http://pymotw.com/ and look at the table of contents. Find a module that
+# look interesting to you and read about it, or explore the documentation of 
+# the collections and random modules. 
+
 

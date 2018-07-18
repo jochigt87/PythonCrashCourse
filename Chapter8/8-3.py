@@ -9,8 +9,8 @@
 
 
 def make_shirt(size, text_on_shirt):
-    
+
     """Display a message of size of t-shirt and text on shirt"""
     print("The size is: " + size + "\n" + text_on_shirt)
- 
+
 make_shirt('small', 'Working on Python')
