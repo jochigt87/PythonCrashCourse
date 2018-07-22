@@ -9,7 +9,7 @@
 # magician's name.
 
 def make_great(magicians_names, unamed_magicians):
-    
+
     while unamed_magicians:
         names_now = magicians_names.pop()
 
@@ -20,7 +20,7 @@ def make_great(magicians_names, unamed_magicians):
 #       print("Great " + names)
 
 def show_magicians(magicians_names):
-    
+
     for names_now in magicians_names:
         print(names_now)
 
@@ -30,4 +30,3 @@ unamed_magicians = []
 make_great(magicians_names[:], unamed_magicians)
 
 show_magicians(magicians_names)
-
